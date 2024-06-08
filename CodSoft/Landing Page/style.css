@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+    display: block;
+    background: url(background.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+
+nav {
+    text-align: right;
+    margin-right: 6vh;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 7vh;
+}
+
+
+nav ul li a {
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+a {
+    padding: 0 1vw;
+}
+
+
+li a:hover {
+    color: coral;
+}
+
+.content {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 20vh;
+}
+
+.content h1 {
+    color: coral;
+    display: inline-flex;
+    font-size: 7vh;
+}
+
+.content h4 {
+    color: rgb(248, 53, 53);
+    font-size: 5vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.content p {
+    color: rgb(216, 216, 217);
+    font-size: 2vh;
+}
+
+.button {
+    text-decoration: none;
+    background: coral;
+    color: floralwhite;
+    border-radius: 1vw;
+    padding: 1vw;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    font-weight: 800;
+}
+
+.button:hover {
+    background: lightgreen;
+    color: black;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    .content {
+        float: none;
+        margin: 12vw;
+    }
+
+
+    .button {
+        margin: 0;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+footer {
+    margin-top: 85vh;
+    height: 1px;
+}
+
+.foot-panel1 {
+    background-color: #325E77;
+    color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-image: url(garena1.jpg);
+    mix-blend-mode: multiply;
+    background-size: cover;
+    height: 10vh;
+    width: 10vh;
+    margin-left: 2vh;
+}
+
+.foot-panel2 {
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.copyright {
+    padding-top: 5px;
+    cursor: default;
+    margin-top: 20px;
+}
